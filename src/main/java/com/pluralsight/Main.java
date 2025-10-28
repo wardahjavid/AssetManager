@@ -9,15 +9,15 @@ public class Main {
         ArrayList<Asset> assets = new ArrayList<>();
 
         // Add 2 Houses
-        assets.add(new House("My Home", "2015-06-12", 250000,
-                "123 Maple Street", 1, 2000, 5000));
-        assets.add(new House("Vacation Home", "2020-08-25", 300000,
-                "45 Beach Drive", 3, 1500, 3000));
+        assets.add(new House("WinterHome", "2015-04-22", 250000,
+                "148 Star Road", 1, 2000, 5000));
+        assets.add(new House("Summer Home", "2019-01-02", 300000,
+                "245 Crescent Drive", 3, 1500, 3000));
 
         // Add 2 Vehicles
-        assets.add(new Vehicle("Tom's Truck", "2019-04-10", 45000,
+        assets.add(new Vehicle("Truck 1", "2016-01-12", 45000,
                 "Ford ", 2018, 9000));
-        assets.add(new Vehicle("Jenny's Car", "2021-03-20", 30000,
+        assets.add(new Vehicle("Car 1", "2020-01-20", 30000,
                 "Honda", 2020, 12000));
 
 
