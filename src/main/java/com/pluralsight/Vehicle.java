@@ -14,10 +14,6 @@ public class Vehicle extends Asset{
         this.makeModel = makeModel;
     }
 
-    public Vehicle(String description, String date, int originalCost, String honda, int odometer, int i) {
-        super();
-    }
-
     public String getMakeModel() {
         return makeModel;
     }
