@@ -59,7 +59,7 @@ public class Vehicle extends Asset{
                 makeModel.toLowerCase().contains("toyota");
 
         if (odometer > 100000 && !isHondaOrToyota) {
-            value *= 0.75; // reduce by 25%
+            value *= 0.75;
         }
 
         return value;
